@@ -5,8 +5,8 @@
 	<meta name="description" content="description">
 	<meta name="keywords" content="keywords">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="img/favicon.png">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
@@ -29,8 +29,8 @@
 <body>
 	<div class="container-fluid">
 		<!-- Pattern -->
-		<div class="row col bg-header position-absolute" style="margin: 0 !important; padding: 0 !important">
-			<img src="img/pattern.jpg" style="width: 120vw;" alt="Тектсура компании">
+		<div class="row bg-header">
+			<img src="img/pattern.jpg" alt="Тектсура компании">
 		</div>
 
 		<!-- End Pattern -->
@@ -38,17 +38,21 @@
 		<!-- Card info -->
 		<div class="row justify-content-center">
 			<div class="info-card">
-				<img src="img/logo.svg" alt="Логотип компании">
-				<h1>Тектоника Плюс</h1>
-				<h2>студия дизайна</h2>
-				<ul>
-					<li><a href="#"><i class="fas fa-map-marker-alt"></i> Заливная улица, 29/1, Сумы</a></li>
-					<li><a href="tel:+380954999004"><i class="fas fa-phone-alt"></i> +38 095 49 99 004</a></li>
-					<li><a href="tel:+380969499004"><i class="fas fa-phone-alt"></i> +38 096 94 99 004</a></li>
-				</ul>
-				<ul>
-					<li><a href="#">Viber</a></li>
-					<li><a href="#">Facebook</a></li>
+				<div class="col-2">
+					<img src="img/logo.svg" alt="Логотип компании" class="logo">
+				</div>
+				<div class="col-10 info-text-card">
+					<h1>Тектоника Плюс</h1>
+					<h2>студия дизайна</h2>
+					<ul>
+						<li><a href="#"><i class="fas fa-map-marker-alt"></i> Заливная улица, 29/1, Сумы</a></li>
+						<li><a href="tel:+380954999004"><i class="fas fa-phone-alt"></i> +38 095 49 99 004</a></li>
+						<li><a href="tel:+380969499004"><i class="fas fa-phone-alt"></i> +38 096 94 99 004</a></li>
+					</ul>
+				</div>
+				<ul class="msg-btn d-inline-flex">
+					<li><a class="viber-msg" href="#">Viber</a></li>
+					<li><a class="facebook-msg" href="#">Facebook</a></li>
 				</ul>
 			</div>
 		</div>
@@ -56,28 +60,61 @@
 		<!-- End Card info -->
 
 		<!-- Link block -->
-		<ul>
-			<li>О компании</li>
-			<li>Каталог</li>
-			<li>Портфолио</li>
-			<li>Блог</li>
-		</ul>
+		<div class="row justify-content-center p-5 link-menu">
+			<ul>
+				<li><a href="#">О компании</a></li>
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">Портфолио</a></li>
+				<li><a href="#">Блог</a></li>
+			</ul>
+		</div>
 		<!-- End Link block -->
 
 		<!-- Top catalog block -->
-		<h2>Популярные товары</h2>
 
-		<div class="card-product">
-			<img src="#" alt="">
-			<h3>Название товара</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-			<span class="price">от 420 грн.</span>
-			<span class="open-products">Подробнее</span>
-
+		<div class="row p-5 card-product" style="border: 1px solid red;">
+			<h2>Популярные товары</h2>
+			<div class="card-pro" style="color: #EEEEEE">
+				<div class="pic-product"></div>
+				<div class="info-pro">
+					<h3>Название товара</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+					<div class="row ml-1 justify-content-between">
+						<span class="price">от 420 грн.</span>
+						<span class="open-products">Подробнее</span>
+					</div>
+				</div>
+			</div>
+			<div class="card-pro" style="color: #EEEEEE">
+				<div class="pic-product"></div>
+				<div class="info-pro">
+					<h3>Название товара</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+					<div class="row ml-1 justify-content-between">
+						<span class="price">от 420 грн.</span>
+						<span class="open-products">Подробнее</span>
+					</div>
+				</div>
+			</div>
+			<div class="card-pro" style="color: #EEEEEE">
+				<div class="pic-product"></div>
+				<div class="info-pro">
+					<h3>Название товара</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+					<div class="row ml-1 justify-content-between">
+						<span class="price">от 420 грн.</span>
+						<span class="open-products">Подробнее</span>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- End Top catalog block -->
-
-		<footer><p>(с) Тектоника Плюс 2000-2021</p> <p>Разработчик: <a href="#">Maxim Derewyanko</a></p></footer>
+	</div>
+	<div class="container-fluid">
+		<footer class="row d-flex justify-content-between">
+			<p class="copy">© Тектоника Плюс 2000-2021</p>
+			<p class="dev">Разработчик: <a href="#">Maxim Derewyanko</a></p>
+		</footer>
 	</div>
 </body>
 
