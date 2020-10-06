@@ -1,100 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="description">
 	<meta name="keywords" content="keywords">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- <link rel="shortcut icon" href="img/favicon.png"> -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css"> -->
 
-	<title>Document</title>
+	<title>Быстрие ссылки</title>
 </head>
 <body>
 	<div class="container-fluid">
+
+		<!-- Header -->
 		<div class="row header">
-			<div class="col-12">
-				<div class="card" style="width: 18rem;">
+			<div class="col-12 card-info">
+				<div class="card" style="width: 22rem;">
 					<div class="card-body">
-						<div class="col-4">
-							<img src="img/logo.svg" width="60" alt="Логотип компании">
+						<div class="media">
+							<img src="img/logo.svg" width="60" class="align-self-start mr-3" alt="...">
+							<div class="media-body">
+								<h5 class="mt-0">Тектоника Плюс</h5>
+								<p>Студия дизайна</p>
+								<ul class="contact-info">
+									<li><a href="https://g.page/tktplus?share" target="_blank"><i class="fas fa-map-marker-alt"></i> Заливная улица, 29/1, Сумы</a> </li>
+									<li><a href="tel:+380954999004"><i class="fas fa-phone-alt"></i>+38 095 49 99 004</a></li>
+									<li><a href="tel:+380969499004"><i class="fas fa-phone-alt"></i>+38 096 94 99 004</a></li>
+								</ul>
+							</div>
 						</div>
-						<div class="col-8">
-							<h5 class="card-title">Тектоника Плюс</h5>
-							<h6 class="card-subtitle mb-2 text-muted">студия дизайна</h6>
-							<p class="card-text">Заливная улица, 29/1, Сумы</p>
-							<p class="card-text">+38 095 49 99 004</p>
-							<p class="card-text">+38 096 94 99 004</p>
+						<div class="row position-absolute">
+							<div class="col-12 d-flex justify-content-between">
+								<button type="button" class="m-2 btn btn-primary btn-viber" style="width: 140px !important;">Viber</button>
+								<button type="button" class="m-2 btn btn-primary btn-fb" style="width: 140px !important;">Messanger</button>
+							</div>
 						</div>
-					</div>
-					<div class="row">
-						<a href="#" class="card-link">Viber</a>
-						<a href="#" class="card-link">Messanger</a>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- End Header -->
+	</div>
 
-		<div class="row">
-			<div class="col-12">
-				<button type="button" class="btn btn-primary btn-lg btn-block">О компании</button>
-				<button type="button" class="btn btn-primary btn-lg btn-block">Каталог</button>
-				<button type="button" class="btn btn-primary btn-lg btn-block">Услуги</button>
-				<button type="button" class="btn btn-primary btn-lg btn-block">Портфолио</button>
-				<button type="button" class="btn btn-primary btn-lg btn-block">Блог</button>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-12">
-				<h2>Популярные товары</h2>
-				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="img/placeholder.png" class="d-block w-100" alt="...">
-						</div>
-						<div class="carousel-item">
-							<img src="img/placeholder.png" class="d-block w-100" alt="...">
-						</div>
-						<div class="carousel-item">
-							<img src="img/placeholder.png" class="d-block w-100" alt="...">
-						</div>
-					</div>
-					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
-				<div class="row row-cols-2">
-					<div class="col">1</div>
-					<div class="col">2</div>
-					<div class="col">3</div>
-					<div class="col">4</div>
-					<div class="col">5</div>
-					<div class="col">6</div>
-				</div>
-				<button type="button" class="btn btn-primary btn-lg btn-block">Посмотреть остальные товары</button>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-6">
-				© Тектоника Плюс 2000-2021
-			</div>
-
-			<div class="col-6">
-				Разработчик: Maxim Derewyanko
-			</div>
+	<!-- Menu links -->
+	<div class="row link-menu" style="margin-top: 20vw;">
+		<div class="col-6">
+			<button type="button" class="btn btn-primary btn-lg btn-block">О компании</button>
+			<button type="button" class="btn btn-primary btn-lg btn-block">Каталог</button>
+			<button type="button" class="btn btn-primary btn-lg btn-block">Услуги</button>
+			<button type="button" class="btn btn-primary btn-lg btn-block">Портфолио</button>
+			<button type="button" class="btn btn-primary btn-lg btn-block">Блог</button>
 		</div>
 	</div>
-</body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</html>
+	<!-- End Menu links -->
+
+	<!-- Top products -->
+	<div class="row">
+		<h5 style="color: #FF0000;">Популярные товары</h5>
+		<div class="col-12">
+
+			<!-- Slider products -->
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="card mb-3" style="max-width: 540px;">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<img src="img/products/3d-photo.jpg" class="card-img" alt="...">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title">3D фото обои</h5>
+										<p class="card-text">Фотообои 3d отличаются своей объемностью, приближенной к реальности. Им присуща оптическая иллюзия, что позволяет вживить изображение в окружающую действительность.</p>
+										<p class="card-text"><button type="button" class="btn btn-primary btn-sm">Small button</button>
+											<button type="button" class="btn btn-secondary btn-sm">Small button</button></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card mb-3" style="max-width: 540px;">
+								<div class="row no-gutters">
+									<div class="col-md-4">
+										<img src="img/products/glass-part.jpg" class="card-img" alt="...">
+									</div>
+									<div class="col-md-8">
+										<div class="card-body">
+											<h5 class="card-title">Душевое ограждение из стекла</h5>
+											<p class="card-text">Стеклянные душевые ограждения (также называют: душевые перегородки, экраны, скрины для душа) - наиболее простой и популярный выбор.</p>
+											<p class="card-text"><button type="button" class="btn btn-primary btn-sm">Small button</button>
+												<button type="button" class="btn btn-secondary btn-sm">Small button</button></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card mb-3" style="max-width: 540px;">
+									<div class="row no-gutters">
+										<div class="col-md-4">
+											<img src="img/products/litokol.jpg" class="card-img" alt="...">
+										</div>
+										<div class="col-md-8">
+											<div class="card-body">
+												<h5 class="card-title">Затирка для швов до 2мм LITOCHROM</h5>
+												<p class="card-text">Цементная затирочная смесь на основе гидравлических вяжущих, инертных наполнителей мелкой фракции, полимеров, органических добавок и пигментов.</p>
+												<p class="card-text"><button type="button" class="btn btn-primary btn-sm">Small button</button>
+													<button type="button" class="btn btn-secondary btn-sm">Small button</button></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+						<!-- End Slider products -->
+
+						<!-- Grid products -->
+						<div class="row row-cols-2">
+							<div class="col">
+								<div class="card" style="width: 18rem;">
+									<img src="img/products/grid/1.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Алюминиевые перголы</h5>
+										<p class="card-text">Алюминиевые перголы представляют собой конструкции в виде навеса или арки. Они являются многофункциональными, а также имеют разные модели.</p>
+										<a href="#" class="btn btn-primary">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card" style="width: 18rem;">
+									<img src="img/products/grid/2.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Профильная система Pоnzio</h5>
+										<p class="card-text">Польская система Роnzio РF 152WG предназначена для изготовления зимних садов и других пространственных конструкций.</p>
+										<a href="#" class="btn btn-primary">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card" style="width: 18rem;">
+									<img src="img/products/grid/3.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Душевые перегородки Loft</h5>
+										<p class="card-text">На данный момент одними из самых стильных и эффектных в плане дизайна являются стеклянные душевые в стиле лофт.</p>
+										<a href="#" class="btn btn-primary">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card" style="width: 18rem;">
+									<img src="img/products/grid/4.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Стеклянные ограждения и балюстрады</h5>
+										<p class="card-text">Стеклянные ограждения и балюстрады начали пользоваться активным спросом в течение последних двадцати лет, постепенно вытесняя ограждения, изготовленные из других материалов.</p>
+										<a href="#" class="btn btn-primary">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card" style="width: 18rem;">
+									<img src="img/products/grid/5.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Клей на цементной основе для облицовки CEMENTKOL K21 25 кг</h5>
+										<p class="card-text">Сухая клеевая смесь серого (К21) или белого (К22) цвета на основе портландцемента, инертных наполнителей отборной фракции и органических добавок.</p>
+										<a href="#" class="btn btn-primary">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card" style="width: 18rem;">
+									<img src="img/products/grid/6.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+										<h5 class="card-title">Самовыравнивающий цемент для стяжки LITOLIV</h5>
+										<p class="card-text">Самовыравнивающий состав серого цвета на основе гидравлических вяжущих, способствующих быстрому высыханию, инертного кремнезема, известняка отборной гранулометрии и органических добавок.</p>
+										<a href="#" class="btn btn-primary">Подробнее</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Grid products -->
+
+						<button type="button" class="btn btn-primary btn-lg btn-block">Посмотреть остальные товары</button>
+					</div>
+				</div>
+
+				<!-- End Top products -->
+
+				<!-- Footer links -->
+				<div class="row footer">
+					<div class="col-6 copyright-text">
+						© Тектоника Плюс 2000-2021
+					</div>
+
+					<div class="col-6 dev-info">
+						Разработчик: Maxim Derewyanko
+					</div>
+				</div>
+				<!-- End Footer links -->
+
+			</div>
+		</body>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="https://kit.fontawesome.com/bf4515c302.js"></script>
+		</html>
