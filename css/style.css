@@ -51,10 +51,14 @@ body{
   background: #675DA9 !important;
   color: #EEEEEE;
 }
+.btn-viber:hover{
+  background: #453E78 !important;
+}
 .btn-fb{
   background: #0062E0 !important;
   color: #EEEEEE;
 }
+.btn-fb:hover{background: #003578 !important}
 .link-menu{
   justify-content: center;
   text-align: center;
@@ -66,11 +70,34 @@ body{
   font-weight: bold;
   border: none;
 }
+.link-menu a{
+  color: #FF0000 !important;
+}
 .link-menu button:hover{
   background-color: #FF0000;
-  color: #EEEEEE;
   border: none;
 }
+.link-menu button:hover a{
+  color: #EEEEEE !important;
+  text-decoration: none;
+}
+.top-products{
+  border: 1px solid red;
+}
+.top-products h5{
+  text-transform: uppercase;
+}
+.carousel-item .card{
+  background-color: rgba(0, 0, 0, .0);
+  border: 0;
+}
+.carousel-item .card{color: #EEEEEE}
+.carousel-item .card .card-img{
+  width: 100% !important;
+  height: 100% !important;
+  object-fit:cover;
+}
+
 .footer{
   color: #EEEEEE;
   border: 1px solid red;
