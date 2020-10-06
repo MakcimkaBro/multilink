@@ -29,6 +29,8 @@ body{
   color: #EEEEEE;
   margin-top: 10vw;
 }
+.header .card h5{margin: 0; padding: 0;}
+.header .card p{font-size: 12px;}
 .card a{
   color: #EEEEEE;
 }
@@ -46,6 +48,8 @@ body{
 .contact-info li{
   list-style-type: none;
 }
+.btn-viber, .btn-fb{width: 140px !important;}
+.btn-viber a:hover, .btn-fb a:hover{color: #EEEEEE;}
 .card .btn{border: 0;}
 .btn-viber{
   background: #675DA9 !important;
@@ -81,15 +85,13 @@ body{
   color: #EEEEEE !important;
   text-decoration: none;
 }
-.top-products{
-  border: 1px solid red;
-}
-.top-products h5{
+.card-title{padding: 0;}
+.top-products h2{
   text-transform: uppercase;
   padding: 20px;
 }
 .slide{overflow: hidden; height: auto;}
-.carousel-item{max-height: 250px; }
+.carousel-item{max-height: 260px; }
 .slide{
   align-items: center;
 }
@@ -101,6 +103,10 @@ body{
   transform: translate(-50%, 0%);
 }
 .carousel-item .card{color: #EEEEEE}
+.prev-img-products{
+  width: 180px;
+  height: 180px;
+}
 .carousel-item .card .card-img{
   width: 100% !important;
   height: 100% !important;
