@@ -86,10 +86,19 @@ body{
 }
 .top-products h5{
   text-transform: uppercase;
+  padding: 20px;
 }
+.slide{overflow: hidden; height: auto;}
+.carousel-item{max-height: 250px; }
+.slide{
+  align-items: center;
+}
+.carousel-control-next, .carousel-control-prev{width: auto !important;}
 .carousel-item .card{
   background-color: rgba(0, 0, 0, .0);
   border: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 .carousel-item .card{color: #EEEEEE}
 .carousel-item .card .card-img{
@@ -97,7 +106,16 @@ body{
   height: 100% !important;
   object-fit:cover;
 }
-
+.card-body .btn-price{
+  background: #FF0000 !important;
+  color: #EEEEEE;
+  font-weight: bold;
+}
+.card-body .btn-open{
+  background: #4B4D4C !important;
+  color: #252525;
+  font-weight: bold;
+}
 .footer{
   color: #EEEEEE;
   border: 1px solid red;
