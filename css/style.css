@@ -1,128 +1,204 @@
+/* MakcimkaBro 2020 */
+
+/* Global styles */
 body{
   background: #252525 !important;
   overflow-x: hidden;
   padding: 0;
   margin: 0;
 }
-.container-fluid{
-  padding: 0;
-  margin: 0;
+h1{}
+  h2{}
+    h3{}
+      h4{}
+        p{}
+          button{}
+            .btn-red{
+              background: #FF0000 !important;
+              color: #EEEEEE !important;
+            }
+
+            .container-fluid{
+              padding: 0;
+              margin: 0;
+            }
+            .row{
+              padding: 2%;
+            }
+
+            *{
+              border-radius: 0 !important;
+              /* border: 1px solid blue; */
+            }
+            .btn{border: 0 !important;}
+
+            /* Header */
+            .header{
+              background-image: url(../img/pattern.jpg);
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              width: 100vw;
+              justify-content: center;
+            }
+            .header .card{
+              position: relative;
+              left: 50%;
+              transform: translate(-50%, 50%);
+              background: #252525 !important;
+              box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+              color: #EEEEEE;
+              margin-top: 10vw;
+            }
+            .header .card h5{margin: 0; padding: 0;}
+            .header .card p{font-size: 12px;}
+            .header .card a{
+              color: #EEEEEE;
+            }
+            .header .card a:hover{
+              color: #FF0000;
+              text-decoration: none;
+              text-align: left;
+            }
+            .header .card a i{padding-right: 10px;}
+            .header .contact-info{
+              padding: 0;
+              margin: 0;
+              font-size: 14px;
+            }
+            .header .contact-info li{
+              list-style-type: none;
+            }
+            .header .btn-viber, .btn-fb{width: 140px !important;}
+            .header .btn-viber a:hover, .header .btn-fb a:hover{color: #EEEEEE;}
+            .header .card .btn{border: 0;}
+            .header .btn-viber{
+              background: #675DA9 !important;
+              color: #EEEEEE;
+            }
+            .header .btn-viber:hover{
+              background: #453E78 !important;
+            }
+            .header .btn-fb{
+              background: #0062E0 !important;
+              color: #EEEEEE;
+            }
+            .header .btn-fb:hover{background: #003578 !important}
+            .menu-links{
+              justify-content: center;
+              text-align: center;
+            }
+
+            /* Menu links styles */
+            .menu-links button{
+              background-color: #EEEEEE;
+              color: #FF0000;
+              text-transform: uppercase;
+              font-weight: bold;
+              border: none;
+            }
+            .menu-links a{
+              color: #FF0000 !important;
+            }
+            .menu-links button:hover{
+              background-color: #FF0000;
+              border: none;
+            }
+            .menu-links button:hover a{
+              color: #EEEEEE !important;
+              text-decoration: none;
+            }
+            .card-title{padding: 0;}
+
+            /* Top products */
+            /* Slider styles */
+            .top-products h2{
+              text-transform: uppercase;
+              padding: 20px;
+            }
+            .slide{overflow: hidden; height: auto;}
+            .carousel-item{max-height: 260px; }
+            .slide{
+              align-items: center;
+            }
+            .carousel-control-next, .carousel-control-prev{width: auto !important;}
+            .carousel-item .card{
+              background-color: rgba(0, 0, 0, .0);
+              border: 0;
+              left: 50%;
+              transform: translate(-50%, 0%);
+            }
+            .carousel-item .card{color: #EEEEEE}
+            .prev-img-products{
+              width: 180px;
+              height: 180px;
+            }
+
+            /* Grid products styles */
+            .carousel-item .card .card-img{
+              width: 100% !important;
+              height: 100% !important;
+              object-fit:cover;
+            }
+            .card-body .btn-price{
+              background: #FF0000 !important;
+              color: #EEEEEE;
+              font-weight: bold;
+            }
+            .card-body .btn-open{
+              background: #4B4D4C !important;
+              color: #252525;
+              font-weight: bold;
+            }
+            .grid-products .card{
+              width: 18rem;
+              height: 18rem;
+              /* -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover; */
+              background-size: cover !important;
+            }
+            .grid-products .card h5{
+              font-size: 1em;
+              color: #EEEEEE;
+              text-transform: uppercase;
+            }
+            .grid-products .card p{
+              font-size: .8em;
+              color: #EEEEEE;
+            }
+            .grid-products .btn{
+              position: absolute;
+              bottom: 0px;
+              left: 50%;
+              transform: translate(-50%, 50%);
+            }
+            .grid-products .card-body::before{
+              content: "";
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+            }
+            .grid-products .card-body .text-card{
+              display: inline-block;
+              position: absolute;
+              bottom: 15%;
+            }
+
+
+
+
+            /* Footer style */
+            .footer{
+              color: #EEEEEE;
+            }
+.footer .copyright-text{
+  font-size: 12px;
 }
-*{
-  border-radius: 0 !important;
-  /* border: 1px solid blue; */
-}
-.header{
-  background-image: url(../img/pattern.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
-  justify-content: center;
-}
-.header .card{
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  background: #252525 !important;
-  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
-  color: #EEEEEE;
-  margin-top: 10vw;
-}
-.header .card h5{margin: 0; padding: 0;}
-.header .card p{font-size: 12px;}
-.card a{
-  color: #EEEEEE;
-}
-.card a:hover{
-  color: #FF0000;
-  text-decoration: none;
-  text-align: left;
-}
-.card a i{padding-right: 10px;}
-.contact-info{
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-.contact-info li{
-  list-style-type: none;
-}
-.btn-viber, .btn-fb{width: 140px !important;}
-.btn-viber a:hover, .btn-fb a:hover{color: #EEEEEE;}
-.card .btn{border: 0;}
-.btn-viber{
-  background: #675DA9 !important;
-  color: #EEEEEE;
-}
-.btn-viber:hover{
-  background: #453E78 !important;
-}
-.btn-fb{
-  background: #0062E0 !important;
-  color: #EEEEEE;
-}
-.btn-fb:hover{background: #003578 !important}
-.link-menu{
-  justify-content: center;
-  text-align: center;
-}
-.link-menu button{
-  background-color: #EEEEEE;
-  color: #FF0000;
-  text-transform: uppercase;
-  font-weight: bold;
-  border: none;
-}
-.link-menu a{
-  color: #FF0000 !important;
-}
-.link-menu button:hover{
-  background-color: #FF0000;
-  border: none;
-}
-.link-menu button:hover a{
-  color: #EEEEEE !important;
-  text-decoration: none;
-}
-.card-title{padding: 0;}
-.top-products h2{
-  text-transform: uppercase;
-  padding: 20px;
-}
-.slide{overflow: hidden; height: auto;}
-.carousel-item{max-height: 260px; }
-.slide{
-  align-items: center;
-}
-.carousel-control-next, .carousel-control-prev{width: auto !important;}
-.carousel-item .card{
-  background-color: rgba(0, 0, 0, .0);
-  border: 0;
-  left: 50%;
-  transform: translate(-50%, 0%);
-}
-.carousel-item .card{color: #EEEEEE}
-.prev-img-products{
-  width: 180px;
-  height: 180px;
-}
-.carousel-item .card .card-img{
-  width: 100% !important;
-  height: 100% !important;
-  object-fit:cover;
-}
-.card-body .btn-price{
-  background: #FF0000 !important;
-  color: #EEEEEE;
-  font-weight: bold;
-}
-.card-body .btn-open{
-  background: #4B4D4C !important;
-  color: #252525;
-  font-weight: bold;
-}
-.footer{
-  color: #EEEEEE;
-  border: 1px solid red;
+.footer .dev-info{
+  font-size: 10px;
 }
