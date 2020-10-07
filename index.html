@@ -7,8 +7,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/breakpoints.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css"> -->
+	<link rel="stylesheet" href="css/animate.css"/>
 
 	<title>Быстрие ссылки — Студия дизайна Тектоника Плюс Сумы, Украина</title>
 </head>
@@ -17,14 +19,15 @@
 
 		<!-- Header -->
 		<div class="row header">
-			<div class="col-12 card-info">
-				<div class="card" style="width: 22rem;">
+			<div class="bg-header"></div>
+			<div class="col-12 card-info animate__animated animate__fadeInUp">
+				<div class="card">
 					<div class="card-body">
 						<div class="media">
 							<img src="img/logo.svg" width="60" class="align-self-start mr-3" alt="...">
 							<div class="media-body">
-								<h5 class="mt-0">Тектоника Плюс</h5>
-								<p>Студия дизайна</p>
+								<h1 class="mt-0">Тектоника Плюс</h1>
+								<h2>Студия дизайна</h2>
 								<ul class="contact-info">
 									<li><a href="https://g.page/tktplus?share" target="_blank"><i class="fas fa-map-marker-alt"></i> Заливная улица, 29/1, Сумы</a> </li>
 									<li><a href="tel:+380954999004"><i class="fas fa-phone-alt"></i>+38 095 49 99 004</a></li>
@@ -35,7 +38,7 @@
 						<div class="row position-absolute">
 							<div class="col-12 d-flex justify-content-between">
 								<button type="button" class="m-2 btn btn-primary btn-viber"><a href="viber://chat?number=+380954999004">Viber</a></button>
-								<button type="button" class="m-2 btn btn-primary btn-fb"><a href="www.messenger.com/t/tektonikaplus.ua">Messanger</a></button>
+								<button type="button" class="m-2 btn btn-primary btn-fb"><a href="https://www.messenger.com/t/tektonikaplus.ua">Messanger</a></button>
 							</div>
 						</div>
 					</div>
@@ -45,8 +48,8 @@
 		<!-- End Header -->
 
 		<!-- Menu links -->
-		<div class="row menu-links" style="margin-top: 20vw;">
-			<div class="col-6">
+		<div class="row">
+			<div class="col-12 menu-links animate__animated animate__fadeInUp">
 				<button type="button" class="btn btn-primary btn-lg btn-block"><a href="tktplus.com/tektonikaplus">О компании</a></button>
 				<button type="button" class="btn btn-primary btn-lg btn-block"><a href="tktplus.com/katalog">Каталог</a></button>
 				<button type="button" class="btn btn-primary btn-lg btn-block"><a href="tktplus.com/uslugi">Услуги</a></button>
@@ -57,22 +60,22 @@
 		<!-- End Menu links -->
 
 		<!-- Top products -->
-		<div class="row pt-5 top-products">
-			<h2 style="color: #FF0000;" class="mx-auto">Популярные товары</h2>
+		<div class="row top-products">
+			<h2 style="color: #FF0000;" class="mx-auto animate__animated animate__fadeInUp">Популярные товары</h2>
 			<div class="col-12 mx-auto">
 
 				<!-- Slider products -->
-				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div id="carouselExampleControls" class="carousel slide animate__animated animate__fadeInUp" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<div class="card mb-3" style="max-width: 540px;">
+							<div class="card" style="max-width: 540px;">
 								<div class="row no-gutters">
-									<div class="col-md-4 prev-img-products">
+									<div class="col-4 prev-img-products">
 										<img src="img/products/3d-photo.jpg" class="card-img" alt="...">
 									</div>
-									<div class="col-md-8">
+									<div class="col-8">
 										<div class="card-body">
-											<h5 class="card-title">3D фото обои</h5>
+											<h3 class="card-title">3D фото обои</h3>
 											<p class="card-text">Фотообои 3d отличаются своей объемностью, приближенной к реальности. Им присуща оптическая иллюзия, что позволяет вживить изображение в окружающую действительность.</p>
 											<p class="card-text"><button type="button" class="btn btn-primary btn-sm btn-price">от 420 грн.</button>
 												<button type="button" class="btn btn-secondary btn-sm btn-open">Подробнее</button></p>
@@ -84,12 +87,12 @@
 							<div class="carousel-item">
 								<div class="card mb-3" style="max-width: 540px;">
 									<div class="row no-gutters">
-										<div class="col-md-4 prev-img-products">
+										<div class="col-4 prev-img-products">
 											<img src="img/products/glass-part.jpg" class="card-img" alt="...">
 										</div>
-										<div class="col-md-8">
+										<div class="col-8">
 											<div class="card-body">
-												<h5 class="card-title">Душевое ограждение из стекла</h5>
+												<h3 class="card-title">Душевое ограждение из стекла</h3>
 												<p class="card-text">Стеклянные душевые ограждения (также называют: душевые перегородки, экраны, скрины для душа) - наиболее простой и популярный выбор.</p>
 												<p class="card-text"><button type="button" class="btn btn-primary btn-sm btn-price">от 420 грн.</button>
 													<button type="button" class="btn btn-secondary btn-sm btn-open">Подробнее</button></p>
@@ -101,12 +104,12 @@
 								<div class="carousel-item">
 									<div class="card mb-3" style="max-width: 600px;">
 										<div class="row no-gutters">
-											<div class="col-md-4 prev-img-products">
+											<div class="col-4 prev-img-products">
 												<img src="img/products/litokol.jpg" class="card-img" alt="...">
 											</div>
-											<div class="col-md-8">
+											<div class="col-8">
 												<div class="card-body">
-													<h5 class="card-title">Затирка для швов до 2мм LITOCHROM</h5>
+													<h3 class="card-title">Затирка для швов до 2мм LITOCHROM</h3>
 													<p class="card-text">Цементная затирочная смесь на основе гидравлических вяжущих, инертных наполнителей мелкой фракции, полимеров, органических добавок и пигментов.</p>
 													<p class="card-text"><button type="button" class="btn btn-primary btn-sm btn-price">от 420 грн.</button>
 														<button type="button" class="btn btn-secondary btn-sm btn-open">Подробнее</button></p>
@@ -128,12 +131,12 @@
 							<!-- End Slider products -->
 
 							<!-- Grid products -->
-							<div class="row pt-5 row-cols-2 grid-products">
+							<div class="row pt-5 row-cols-2 grid-products animate__animated animate__fadeInUp">
 								<div class="col d-flex justify-content-center pt-5">
 									<div class="card" style="background: url('img/products/grid/1.jpg') no-repeat center center;">
 										<div class="card-body">
 											<div class="text-card">
-												<h5 class="card-title">Алюминиевые перголы</h5>
+												<h3 class="card-title">Алюминиевые перголы</h3>
 												<p class="card-text">Алюминиевые перголы представляют собой конструкции в виде навеса или арки. Они являются многофункциональными, а также имеют разные модели.</p>
 											</div>
 											<a href="#" class="btn btn-primary btn-open">Подробнее</a>
@@ -144,7 +147,7 @@
 									<div class="card" style="background: url('img/products/grid/2.jpg') no-repeat center center;">
 										<div class="card-body">
 											<div class="text-card">
-												<h5 class="card-title">Профильная система Pоnzio</h5>
+												<h3 class="card-title">Профильная система Pоnzio</h3>
 												<p class="card-text">Польская система Роnzio РF 152WG предназначена для изготовления зимних садов и других пространственных конструкций.</p>
 											</div>
 											<a href="#" class="btn btn-primary btn-open">Подробнее</a>
@@ -155,7 +158,7 @@
 									<div class="card" style="background: url('img/products/grid/3.jpg') no-repeat center center;">
 										<div class="card-body">
 											<div class="text-card">
-												<h5 class="card-title">Душевые перегородки Loft</h5>
+												<h3 class="card-title">Душевые перегородки Loft</h3>
 												<p class="card-text">На данный момент одними из самых стильных и эффектных в плане дизайна являются стеклянные душевые в стиле лофт.</p>
 											</div>
 											<a href="#" class="btn btn-primary btn-open">Подробнее</a>
@@ -166,7 +169,7 @@
 									<div class="card" style="background: url('img/products/grid/4.jpg') no-repeat center center;">
 										<div class="card-body">
 											<div class="text-card">
-												<h5 class="card-title">Стеклянные ограждения и балюстрады</h5>
+												<h3 class="card-title">Стеклянные ограждения</h3>
 												<p class="card-text">Стеклянные ограждения и балюстрады начали пользоваться активным спросом в течение последних двадцати лет, постепенно вытесняя ограждения, изготовленные из других материалов.</p>
 											</div>
 											<a href="#" class="btn btn-primary btn-open">Подробнее</a>
@@ -177,7 +180,7 @@
 									<div class="card" style="background: url('img/products/grid/5.jpg') no-repeat center center;">
 										<div class="card-body">
 											<div class="text-card">
-												<h5 class="card-title">Клей на цементной основе для облицовки CEMENTKOL K21 25 кг</h5>
+												<h3 class="card-title">Клей на цементной основе для облицовки CEMENTKOL K21 25 кг</h3>
 												<p class="card-text">Сухая клеевая смесь серого (К21) или белого (К22) цвета на основе портландцемента, инертных наполнителей отборной фракции и органических добавок.</p>
 											</div>
 											<a href="#" class="btn btn-primary btn-open">Подробнее</a>
@@ -188,7 +191,7 @@
 									<div class="card" style="background: url('img/products/grid/6.jpg') no-repeat center center;">
 										<div class="card-body">
 											<div class="text-card">
-												<h5 class="card-title">Самовыравнивающий цемент для стяжки LITOLIV</h5>
+												<h3 class="card-title">Самовыравнивающий цемент для стяжки LITOLIV</h3>
 												<p class="card-text">Самовыравнивающий состав серого цвета на основе гидравлических вяжущих, способствующих быстрому высыханию, инертного кремнезема, известняка отборной гранулометрии и органических добавок.</p>
 											</div>
 											<a href="#" class="btn btn-primary btn-open">Подробнее</a>
@@ -198,7 +201,7 @@
 							</div>
 							<!-- End Grid products -->
 
-							<button type="button" class="btn btn-primary btn-lg btn-block btn-red" style="width: 40vw; position: relative; left: 50%; transform: translate(-50%, 50%);">Посмотреть остальные товары</button>
+							<button type="button" class="btn btn-primary btn-lg btn-block btn-red open-all">Посмотреть остальные товары</button>
 						</div>
 					</div>
 
@@ -206,12 +209,12 @@
 
 					<!-- Footer links -->
 					<div class="row footer">
-						<div class="col-10 copyright-text">
-							© Тектоника Плюс 2000-2021
+						<div class="col-8 copyright-text">
+							<h2>© Тектоника Плюс 2000-2021</h2>
 						</div>
 
-						<div class="col-2 dev-info">
-							Разработчик: Maxim Derewyanko
+						<div class="col-4 dev-info">
+							<span>Разработал: <a href="https://www.instagram.com/makcimkabro/" target="_blank">Maxim Derewyanko</a></span>
 						</div>
 					</div>
 					<!-- End Footer links -->

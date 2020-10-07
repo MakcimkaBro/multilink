@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+  .carousel .btn-open{
+    margin-top: 2%;
+  }
+  .carousel-control-prev{
+    bottom: -20vw !important;
+  }
+  .carousel-control-next{
+    bottom: -20vw !important;
+  }
+}
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
